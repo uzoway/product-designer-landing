@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/** Navigation **/
+.nav{
+    width: 100%;
+    padding: 1rem 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav h1{
+    font-size: 3rem;
+    color: #ff5678;
+    font-weight: bold;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-left: .2rem;
+    background: transparent;
+}
+
+.nav ul li:nth-child(4) a{
+    background: #ff5678;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+    padding: .7rem 3rem;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.nav ul li:nth-child(4):hover a{
+    background: #db0631;
+    color: rgb(255, 255, 255);
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: .7rem 2rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.nav ul li a:hover{
+    color: #ff5678;
+}
+
+/** Header starts here **/
+.header{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8rem;
+}
+
+.header .leftcolumn{
+    flex-basis: 65%;
+}
+
+.header .leftcolumn h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    line-height: 3.6rem;
+    margin-bottom: 1rem;
+}
+
+.header .leftcolumn p{
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2rem;
+}
+
+.header .leftcolumn .leftcolumn-banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+.header .leftcolumn .leftcolumn-banner ul{
+    display: flex;
+    align-items: center;
+}
+
+.header .leftcolumn .leftcolumn-banner ul li{
+    margin-right: 2rem;
+    display: inline-block;
+}
+
+.header .leftcolumn .leftcolumn-banner ul li:nth-child(1) a{
+    text-decoration: none;
+    background: #ff5678;
+    color: rgb(255, 255, 255);
+    padding: 1rem 5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.header .leftcolumn .leftcolumn-banner ul li:nth-child(1):hover a{
+    background: #db0631;
+}
+
+.header .leftcolumn .leftcolumn-banner ul li a{
+    text-decoration: none;
+    background: transparent;
+}
+
+.header .leftcolumn .leftcolumn-banner ul li a img{
+    width: 1.5rem;
+}
+
+.header .rightcolumn{
+    flex-basis: 35%;
+}
+
+.header .rightcolumn img{
+    width: 100%;
+}
+
+/** About Me starts here **/
+.aboutMe{
+    min-height: 100vh;
+    width: 100%;
+    padding: 2rem 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.aboutMe .leftcolumn{
+    flex-basis: 55%;
+}
+
+.aboutMe .leftcolumn h3{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1.5rem;
+}
+
+.aboutMe .leftcolumn h3 span{
+    color: #ff5678;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.aboutMe .leftcolumn p{
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.aboutMe .rightcolumn{
+    flex-basis: 40%;
+}
+    
+/** Work experience starts here **/
+.work-experience{
+    width: 100%;
+    position: relative;
+    padding: 3rem 8rem;
+}
+
+.work-experience .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .5rem;
+}
+
+.work-experience .heading h4{
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.work-experience .heading h4 span{
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #ff5678;
+}
+
+.work-experience .heading a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #c4c4c4;
+    cursor: pointer;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+}
+
+.work-experience .heading a .fa{
+    margin-left: 1rem;
+}
+
+.work-experience .heading a:hover{
+    color: #4b4a4a;
+}
+
+.work-experience hr{
+    display: block;
+    background: #c4c4c4;
+    width: 100%;
+    margin: 1rem 0 2rem;
+}
+
+.work-experience .work-experience-banner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.work-experience .work-experience-banner .work-experience-sections{
+    flex-basis: 33%;
+    margin-bottom: 2rem;
+}
+
+.work-experience .work-experience-banner .work-experience-sections .year{
+    font-size: 1.3rem;
+    color: #c4c4c4;
+}
+
+.work-experience .work-experience-banner .work-experience-sections .company{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.work-experience .work-experience-banner .work-experience-sections .company span{
+    font-size: 1.3rem;
+    color: #c4c4c4;
+}
+
+.work-experience .work-experience-banner .work-experience-sections .role{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+
+/** Skills starts here **/
+.skills{
+    width: 100%;
+    padding: 3rem 8rem;
+    position: relative;
+}
+
+.skills h5{
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.skills h5 span{
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #ff5678;
+}
+
+.skills hr{
+    display: block;
+    background: #c4c4c4;
+    width: 100%;
+    margin: 1rem 0 2rem;
+}
+
+.skills .skills-banner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .skills-banner .skills-content{
+    flex-basis: 30%;
+    position: relative;
+    padding: 3rem 3rem 3rem 1rem;
+    box-shadow: 0 0 5px 0 #c4c4c4;
+    border-radius: 5px;
+    height: 20rem;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.skills .skills-banner .skills-content:hover{
+    margin-top: -1.5rem;
+}
+
+.skills .skills-banner .skills-content h6{
+    font-size: 1.7rem;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.skills .skills-banner .skills-content p{
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+
+/** Selected works starts here **/
+.selected-works{
+    width: 100%;
+    position: relative;
+    padding: 3rem 8rem;
+}
+
+.selected-works h6{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2rem;
+}
+
+.selected-works h6 span{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff5678;
+}
+
+.selected-works .selected-works-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.selected-works .selected-works-content .work1{
+    flex-basis: 100%;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.selected-works .selected-works-content .work1 img{
+    width: 100%;
+    transition: .5s;
+}
+
+.selected-works .selected-works-content .work1:hover img{
+    transform: scale(1.2);
+}
+
+.selected-works .selected-works-content .work2{
+    flex-basis: 48%;
+    margin-bottom: 2rem;position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.selected-works .selected-works-content .work2 img{
+    width: 100%;
+    transition: .5s;
+}
+
+.selected-works .selected-works-content .work2:hover img{
+    transform: scale(1.2);
+}
+
+/** Skillset starts here **/
+.skillset{
+    width: 100%;
+    position: relative;
+    padding: 0 8rem 3rem;
+}
+
+.skillset h6{
+    font-size: 2.3rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.skillset .skillset-banner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skillset .skillset-banner .leftcolumn{
+    flex-basis: 70%;
+}
+
+.skillset .skillset-banner .leftcolumn p{
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+
+.skillset .skillset-banner .leftcolumn p a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #ff5678;
+    transition: .5s;
+}
+
+.skillset .skillset-banner .leftcolumn p a:hover{
+    color: #db0631;
+}
+
+.skillset .skillset-banner .rightcolumn{
+    flex-basis: 10%;
+}
+
+/** Footer starts here **/
+footer{
+    width: 100%;
+    position: relative;
+    padding: 3rem 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .leftcolumn{
+    flex-basis: 60%;
+}
+
+footer .leftcolumn h6{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+}
+
+footer .leftcolumn h6 span{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff5678;
+}
+
+footer .leftcolumn p{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2.5rem;
+}
+
+footer .leftcolumn a{
+    text-decoration: none;
+    background: #ff5678;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+    padding: .7rem 3rem;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+}
+
+footer .leftcolumn a:hover{
+    background: #db0631;
+}
+
+footer .rightcolumn{
+    flex-basis: 40%;
+}
+
+footer .rightcolumn h6{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff5678;
+    margin-bottom: 1rem;
+}
+
+footer .rightcolumn h6 span{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+footer .rightcolumn ul li{
+    list-style: none;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+footer .rightcolumn ul li a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+footer .rightcolumn ul li a img{
+    margin-right: 1rem;
+    width: 1.5rem;
+}
+
+.attribution{
+    width: 100%;
+    padding: 1rem 8rem;
+    background: #ff5678;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.attribution p{
+    color: rgb(255, 255, 255);
+}
+
+.attribution p a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.attribution p a:hover{
+    color: rgba(255, 255, 255, 0.678);
+}
