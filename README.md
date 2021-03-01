@@ -1,6 +1,6 @@
 # Full Portfolio landing page for a Product Designer.
 
-![Design preview for the portfolio](./design/Portfolio 1.png)
+![Design preview for the portfolio](design/Portfolio 1.png)
 
 ## Welcome! 👋
 
