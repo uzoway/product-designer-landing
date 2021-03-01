@@ -25,6 +25,6 @@ The site is not responsive yet, but I'll be working on it soon.
 
 ## Live URL
 
-https://insure-landing-page-five-xi.vercel.app/
+https://product-designer-landing.vercel.app/
 
 🚀
