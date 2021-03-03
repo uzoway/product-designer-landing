@@ -64,6 +64,10 @@ body{
     display: none;
 }
 
+.mobile-nav{
+    display: none;
+}
+
 /** Header starts here **/
 .header{
     width: 100%;
