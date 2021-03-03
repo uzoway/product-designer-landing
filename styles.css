@@ -6,6 +6,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /** Navigation **/
 .nav{
     width: 100%;
@@ -54,6 +58,10 @@
 
 .nav ul li a:hover{
     color: #ff5678;
+}
+
+.nav .btn{
+    display: none;
 }
 
 /** Header starts here **/
@@ -536,4 +544,350 @@ footer .rightcolumn ul li a img{
 
 .attribution p a:hover{
     color: rgba(255, 255, 255, 0.678);
+}
+
+@media (max-width: 991px){
+    body, html{
+        overflow-x: hidden!important;
+    }
+   
+    .nav{
+        width: 100%;
+        padding: 1rem 2rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgb(255, 255, 255);
+        z-index: 10;
+    }
+
+    .nav h1{
+        font-size: 1.5rem;
+        z-index: 10;
+    }
+
+    .nav .btn{
+        display: block;
+        width: 1.7rem;
+        z-index: 10;
+        border: none;
+    }
+
+    .nav ul{
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 4rem 2rem 0;
+        min-height: 100vh;
+    }
+
+    .header .leftcolumn {
+        flex-basis: 100%;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .header .leftcolumn h2 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    .header .leftcolumn p {
+        font-size: 1.2rem;
+    }
+
+    .header .rightcolumn {
+        flex-basis: 100%;
+        height: 100%;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .header .leftcolumn .leftcolumn-banner ul li:nth-child(1) a {
+        padding: .7rem 1.5rem;
+        font-size: .8rem;
+    }
+
+    .header .leftcolumn .leftcolumn-banner ul li a img {
+        width: 1.2rem;
+    }
+
+    .header .leftcolumn .leftcolumn-banner ul {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .aboutMe {
+        padding: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .aboutMe .leftcolumn {
+        flex-basis: 100%;
+    }
+
+    .aboutMe .leftcolumn h3 {
+        font-size: 2.5rem;
+    }
+
+    .aboutMe .leftcolumn h3 span {
+        font-size: 2.5rem;
+    }
+
+    .aboutMe .leftcolumn p {
+        font-size: 1.2rem;
+    }
+
+    .aboutMe .rightcolumn {
+        flex-basis: 100%;
+        margin-top: 2rem;
+    }
+
+    .aboutMe .rightcolumn img {
+        width: 100%;
+    }
+
+    .work-experience {
+        padding: 3rem 2rem;
+    }
+
+    .work-experience .heading {
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0 .5rem;
+        flex-direction: column;
+    }
+
+    .work-experience .heading h4 {
+        font-size: 1.5rem;
+    }
+
+    .work-experience .heading h4 span {
+        font-size: 1.5rem;
+    }
+
+    .work-experience .heading a {
+        font-size: .8rem;
+        margin-top: .5rem; 
+    }
+
+    .work-experience hr {
+        margin: .4rem 0 1rem;
+    }
+
+    .work-experience .work-experience-banner .work-experience-sections {
+        flex-basis: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .work-experience .work-experience-banner .work-experience-sections p{
+        margin-bottom: .2rem;
+    }
+
+    .work-experience .work-experience-banner .work-experience-sections .year {
+        font-size: 1rem;
+    }
+
+    .work-experience .work-experience-banner .work-experience-sections .company {
+        font-size: 1rem;
+    }
+
+    .work-experience .work-experience-banner .work-experience-sections .company span {
+        font-size: 1rem;
+    }
+
+    .work-experience .work-experience-banner .work-experience-sections .role {
+        font-size: 1rem;
+    }
+
+    .skills {
+        padding: 3rem 2rem;
+    }
+
+    .skills h5 {
+        font-size: 1.5rem;
+    }
+
+    .skills h5 span {
+        font-size: 1.5rem;
+    }
+
+    .skills hr {
+        margin: .4rem 0 1rem;
+    }
+
+    .skills .skills-banner {
+        flex-wrap: wrap;
+        padding: 0 1.5rem;
+    }
+
+    .skills .skills-banner .skills-content {
+        flex-basis: 100%;
+        padding: 2rem 2rem 2rem 1rem;
+        height: 17rem;
+        margin: 1.5rem 0;
+    }
+
+    .skills .skills-banner .skills-content:hover{
+        margin-top: 18px;
+    }
+
+    .skills .skills-banner .skills-content h6 {
+        font-size: 1.3rem;
+        margin-bottom: .7rem;
+    }
+
+    .skills .skills-banner .skills-content p {
+        font-size: 1.2rem;
+    }
+
+    .selected-works {
+        padding: 3rem 2rem;
+    }
+
+    .selected-works h6 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .selected-works h6 span {
+        font-size: 2.5rem;
+    }
+
+    .selected-works .selected-works-content .work1 {
+        margin-bottom: .4rem;
+        border-radius: 8px;
+    }
+
+    .selected-works .selected-works-content .work2 {
+        margin-bottom: .4rem;
+        border-radius: 8px;
+    }
+
+    .skillset {
+        padding: 0 2rem 2rem;
+    }
+
+    .skillset h6 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .skillset .skillset-banner .leftcolumn {
+        flex-basis: 65%;
+    }
+
+    .skillset .skillset-banner .leftcolumn p {
+        font-size: 1rem;
+    }
+
+    .skillset .skillset-banner .leftcolumn p a {
+        font-size: 1rem;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        padding: 3rem 2rem;
+    }
+
+    footer .leftcolumn {
+        flex-basis: 100%;
+    }
+
+    footer .leftcolumn h6 {
+        font-size: 2.5rem;
+        margin-bottom: .7rem;
+    }
+
+    footer .leftcolumn h6 span {
+        font-size: 2.5rem;
+    }
+
+    footer .leftcolumn p {
+        font-size: .8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    footer .leftcolumn a {
+        padding: .7rem 2rem;
+        font-size: .8rem;
+    }
+
+    footer .rightcolumn {
+        flex-basis: 100%;
+        margin-top: 3rem;
+    }
+
+    footer .rightcolumn h6 {
+        font-size: 2.5rem;
+        margin-bottom: .7rem;
+    }
+
+    footer .rightcolumn h6 span {
+        font-size: 2.5rem;
+    }
+
+    footer .rightcolumn ul li a {
+        font-size: .8rem;
+    }
+
+    footer .rightcolumn ul li a img {
+        margin-right: .7rem;
+        width: 1rem;
+    }
+
+    .attribution {
+        padding: 1rem 2rem;
+        text-align: center;
+    }
+
+    .attribution p {
+        font-size: 10px;
+    }
+
+    .attribution p a {
+        font-size: 10px;
+    }
+
+    #mobilenav{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #1f1a1a;
+        z-index: 9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transition: 1s;
+    }
+
+    .mobile-nav ul li{
+        display: block;
+        margin-bottom: 3rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .mobile-nav ul li:nth-child(4){
+        background: #ff5678;
+        border-radius: 5px;
+        padding: .8rem 5rem;
+    }
+
+    .mobile-nav ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: 500;
+        letter-spacing: .1rem;
+        color: hsl(0, 0%, 100%);
+        font-family: 'Work Sans', sans-serif;
+    }
 }
