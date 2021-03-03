@@ -891,3 +891,39 @@ footer .rightcolumn ul li a img{
         font-family: 'Work Sans', sans-serif;
     }
 }
+
+@media (max-width: 320px){
+    .header .leftcolumn h2 {
+        font-size: 2.1rem;
+        line-height: 2.5rem;
+    }
+
+    .header .leftcolumn p {
+        font-size: 1rem;
+    }
+
+    .aboutMe .leftcolumn p {
+        font-size: 1rem;
+    }
+
+    .skills .skills-banner .skills-content h6 {
+        font-size: 1.1rem;
+        margin-bottom: .5rem;
+    }
+
+    .skills .skills-banner .skills-content p {
+        font-size: 1rem;
+    }
+
+    .skillset .skillset-banner .leftcolumn p {
+        font-size: .8rem;
+    }
+
+    .skillset .skillset-banner .leftcolumn p a {
+        font-size: .8rem;
+    }
+
+    footer .leftcolumn p br{
+        display: none;
+    }
+}
