@@ -15,13 +15,12 @@ This project is a Porfolio landing page for a Product designer - David. The desi
 I also ensured the users were able to:
 
 - See hover states for all interactive elements on the page
+- View the site on various mobile screen sizes
 
 Working on this project, I was able to:
 
 - Build a project from scratch using data and files from figma.
 - Improve my skills working on a real-life workflow
-
-The site is not responsive yet, but I'll be working on it soon.
 
 ## Live URL
 
